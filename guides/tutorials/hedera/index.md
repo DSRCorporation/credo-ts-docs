@@ -13,7 +13,7 @@ This section assumes that
 
 ## DID Module
 
-The Hedera DID module facilitates the Create, Read, Update, and Delete (CRUD) operations for did:hedera identifiers. To learn more about "did:hedera," please refer to the [specification (!!!!!! Fixme:)](https://github.com/hedera/identity-docs/blob/main/architecture/adr-list/adr-001-cheqd-did-method.md)
+The Hedera DID module facilitates the Create, Read, Update, and Delete (CRUD) operations for `did:hedera` identifiers. To learn more about `did:hedera`, please refer to the [specification](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md)
 
 ### Create DID
 

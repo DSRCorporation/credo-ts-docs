@@ -1,6 +1,6 @@
 # Registering a schema and credential definition on an AnonCreds Registry
 
-In this tutorial we will register a schema and credential definition on an AnonCredsRegistry e.g. Hyperledger Indy ledger [indy-vdr](https://github.com/hyperledger/indy-vdr), [cheqd](https://github.com/openwallet-foundation/credo-ts/packages/cheqd), [hedera](https://github.com/openwallet-foundation/credo-ts/packages/hedera).
+In this tutorial we will register a schema and credential definition on an AnonCredsRegistry e.g. Hyperledger Indy ledger [indy-vdr](https://github.com/hyperledger/indy-vdr), [cheqd](https://github.com/openwallet-foundation/credo-ts/packages/cheqd), [hedera](https://github.com/hiero-ledger/hiero-did-sdk-js/tree/main/packages/anoncreds).
 
 :::info
 
@@ -86,4 +86,4 @@ After everything is registered on a AnonCredsRegistry, we can use it to issue cr
 ### Useful Resources
 
 - [Cheqd AnonCreds Specification](https://docs.cheqd.io/identity/guides/anoncreds)
-- [Hedera AnonCreds Specification (!!! FIXME)](https://docs.hedera.io/identity/guides/anoncreds)
+- [Hedera AnonCreds Specification](https://dsrcorporation.github.io/hedera-anoncreds-method/)
