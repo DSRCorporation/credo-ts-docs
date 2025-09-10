@@ -42,7 +42,6 @@ const agent = new Agent({
         operatorKey: '<your operator Key on the Hedera network in the DER format>',
       }]
     }),
-    // Indy VDR can optionally be used with Askar as wallet and storage implementation
     askar: new AskarModule({
       askar,
       store: {

@@ -4,7 +4,13 @@ import DocCardList from '@theme/DocCardList';
 
 [Hedera](https://hedera.com) is an open public network governed by leading organizations worldwide. Hedera uses revolutionary consensus technology based on hashgraph to support decentralized applications — all without compromising speed, efficiency, and security. The consensus is leaderless, meaning no single node controls the transaction order, which reduces the risk of a single point of failure and attacks. The codebase is managed by the Linux Foundation Decentralized Trust (LF Decentralized Trust) under the Hiero project, which provides vendor-independent code governance and peace of mind for developers.
 
-Hedera can be used for self-sovereign identity (SSI). Hedera employs the DID method from [hedera](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md) and allows resources associated with a DID to be recorded on the network, linked to the DID, and controlled using verification methods specified in the DID document. With this approach, the Hedera network can initially support the [Ledger Agnostic AnonCreds Specification (v1.0)](https://hyperledger.github.io/anoncreds-spec/) through the [AnonCreds Object Method](https://dsrcorporation.github.io/hedera-anoncreds-method/).
+Hedera is a large and trusted network and a great option for Self-Sovereign Identity (SSI), providing high performance and low costs of operations.
+In particular, Hedera can be used as Verifiable Data Registry (VDR) for [Hedera DID Method](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md) and [AnonCreds Verifiable Credentials](https://github.com/hyperledger/anoncreds-spec) by leveraging Hedera Consensus Service (HCS).
+
+Details on Hedera AnonCreds VDR implementation approach can be found in [Hiero AnonCreds Method](https://dsrcorporation.github.io/hedera-anoncreds-method/).
+
+### KMS compatibility
+Please note that current version of Hedera Credo module requires [Askar module](../aries-askar.md) to be installed with Askar KMS backend registered for Credo agent.
 
 ### Installing Hedera
 
@@ -12,7 +18,7 @@ To use Credo with Hedera, you need to install several additional dependencies. S
 
 #### Node
 
-To use Credo in Node, you need to install the ZSTD package. 
+To use Hedera Credo module in Node environment, you need to install the ZSTD package. 
 
 <!--tabs-->
 
@@ -39,7 +45,7 @@ pnpm install zstd-napi
 
 #### React Native
 
-To use Credo in React Native, you need to install the ZSTD package and the crypto package.
+To use Hedera Credo module in React Native environment, you need to install the ZSTD package and the crypto package.
 
 <!--tabs-->
 
